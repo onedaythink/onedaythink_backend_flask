@@ -34,3 +34,9 @@ def test():
 
 if __name__ == '__main__':
     app.run();
+
+
+    # git remote add origin https://github.com/onedaythink/onedaythink_backend_flask.git
+    # git branch -M '자기이름'
+    # git branch -u origin '본인이름'
+    #
