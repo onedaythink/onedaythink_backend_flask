@@ -10,7 +10,7 @@ CORS(app, supports_credentials=True);
 @app.route("/question-for-haru", methods=['post'])
 def question_gpt():
     params = request.get_json()
-    os.environ["OPENAI_API_KEY"] = "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"
+    os.environ["OPENAI_API_KEY"] = "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"
     openai.api_key = os.getenv("OPENAI_API_KEY")
 
     completion = openai.ChatCompletion.create(
